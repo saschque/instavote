@@ -6,3 +6,8 @@ patchesStrategicMerge:
 - deployment.yaml
 - service.yaml
 namespace: instavote
+configMapGenerator:
+- name: vote
+  literals:
+    - OPTION_A=STAGING
+    - OPTION_B=DEV
