@@ -16,5 +16,3 @@ spec:
   selector:
     app: vote
   type: NodePort
-status:
-  loadBalancer: {}
